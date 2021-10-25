@@ -1,9 +1,14 @@
+import styles from './app.module.scss'
+import { LoginBox } from './components/LoginBox'
+import { MessageList } from './components/MessageList'
 
 function App() {
   
   return (
-    <h1>oi</h1>
-      
+    <main className={styles.main}>
+      <MessageList />
+      <LoginBox />
+    </main>
   )
 }
 
